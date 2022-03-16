@@ -1,0 +1,41 @@
+
+body{
+    background-image:  url('image/34253.jpg');
+}
+
+.tablero{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(43, 42, 42);
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background: fixed url('image/thumb-1920-79341.jpg');
+     /* background: -webkit-radial-gradient(ellipse cover, rgb(208, 208, 240), rgb(131, 163, 206), rgb(23, 58, 134));   */
+}
+
+h1,h3 {
+    text-align: center;
+}
+
+.tablero div {
+    width: 20px;
+    height: 20px;
+   border-radius: 10px;
+}
+
+.balas{
+    background: no-repeat center/100% url('image/bala.png');
+}
+.aliens {
+    background: no-repeat center/100% url('image/space-ship.png');
+    /* background-color: rgb(255, 255, 255); */
+}
+.nave{
+      
+    background: no-repeat center/100% url("image/nave-espacial.png");
+}
+.explosion{
+    background: no-repeat center/100% url("image/explosion.png");
+}
